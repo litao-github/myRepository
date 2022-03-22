@@ -14,7 +14,10 @@ import java.util.List;
 @Service
 public class CourseContentServiceImpl implements CourseContentService {
 
+    
     private String testName;
+    
+    private String testName2;
 
     @Autowired
     private CourseContentMapper contentMapper;
